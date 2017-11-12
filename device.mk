@@ -243,6 +243,10 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# SafailNet (for bypass safetynet)
+PRODUCT_PACKAGES += \
+    init.safailnet.rc
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
