@@ -27,9 +27,10 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+CUSTOM_BUILD_TYPE=OFFICIAL
 
 # Inherit from custom vendor
-#$(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 PRODUCT_NAME := cesium_whyred
 PRODUCT_BRAND := Xiaomi
