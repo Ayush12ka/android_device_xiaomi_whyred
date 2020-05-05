@@ -32,11 +32,14 @@ CUSTOM_BUILD_TYPE=OFFICIAL
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := cesium_whyred
+PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 5
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.pixelplusui.maintainer=Ayush😎kakkar
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

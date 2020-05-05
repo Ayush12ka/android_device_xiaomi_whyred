@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_whyred.mk
+    $(LOCAL_DIR)/aosp_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_whyred-user \
-    cesium_whyred-userdebug \
-    cesium_whyred-eng
+    aosp_whyred-user \
+    aosp_whyred-userdebug \
+    aosp_whyred-eng
