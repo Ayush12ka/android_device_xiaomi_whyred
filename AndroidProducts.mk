@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_whyred.mk
+    $(LOCAL_DIR)/colt_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_whyred-user \
-    arrow_whyred-userdebug \
-    arrow_whyred-eng
+    colt_whyred-user \
+    colt_whyred-userdebug \
+    colt_whyred-eng
