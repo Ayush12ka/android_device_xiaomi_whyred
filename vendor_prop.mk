@@ -45,7 +45,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.fm.a2dp.conc.disabled=true \
     audio.sys.noisy.broadcast.delay=600 \
     persist.vendor.audio.hifi.int_codec=true \
-    audio.sys.offload.pstimeout.secs=3
+    audio.sys.offload.pstimeout.secs=3 \
+    ro.control_privapp_permissions=log 
 
 #enable headset calibration
 PRODUCT_PROPERTY_OVERRIDES += \
