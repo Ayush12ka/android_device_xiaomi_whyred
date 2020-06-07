@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_whyred.mk
+    $(LOCAL_DIR)/cesium_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_whyred-user \
-    arrow_whyred-userdebug \
-    arrow_whyred-eng
+    cesium_whyred-user \
+    cesium_whyred-userdebug \
+    cesium_whyred-eng
